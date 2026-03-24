@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isla del Sol - Menú Digital</title>
+    <link rel="icon" type="image/jpeg" href="public/images/favicon.jpeg">
+    <!-- Los paths ahora son relativos a la raíz del proyecto estático -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="menu-page">
+    <!-- Pantalla de carga (Loader) -->
+    <div id="loader" class="loader-container">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- El fondo "menu_main_bg.png" contiene la tabla, el clip y las fotos de comida -->
+    <div class="menu-outer-container">
+        <main class="menu-content-area" id="menu-container">
+            <!-- Los productos se cargarán dinámicamente mediante JS y JSON -->
+        </main>
+    </div>
+
+    <!-- Modal de Detalles de Producto -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeProductModal()">&times;</span>
+            <div id="modal-image-container"></div>
+            <h2 id="modal-product-name"></h2>
+            <p id="modal-product-description"></p>
+            <div id="modal-product-price"></div>
+        </div>
+    </div>
+
+    <script src="public/js/main.js"></script>
+</body>
+
+</html>

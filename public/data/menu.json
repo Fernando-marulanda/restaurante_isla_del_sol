@@ -1,0 +1,26 @@
+{
+  "categories": [
+    { "id": 1, "nombre": "Pescados" },
+    { "id": 2, "nombre": "Carnes" },
+    { "id": 3, "nombre": "sopas" },
+    { "id": 4, "nombre": "acompañantes" },
+    { "id": 5, "nombre": "bebidas" }
+  ],
+  "products": [
+    { "id": 1, "nombre": "Bagre", "descripcion": "Delicioso bagre fresco seleccionado, sazonado con especias de la casa y preparado al gusto. Disponible frito o sudado.", "precio": 30000, "imagen": "bagre.png", "imagen_2": "bagre2.png", "categoria_id": 1 },
+    { "id": 2, "nombre": "Bocachico", "descripcion": "Auténtico bocachico colombiano, cuidadosamente preparado con sazón tradicional. Puedes disfrutarlo frito o sudado.", "precio": 30000, "imagen": "bocachico.png", "imagen_2": null, "categoria_id": 1 },
+    { "id": 3, "nombre": "Tilapia", "descripcion": "Tilapia fresca de excelente calidad, marinada con especias naturales. Disponible frito o sudado.", "precio": 30000, "imagen": "tilapia.png", "imagen_2": null, "categoria_id": 1 },
+    { "id": 4, "nombre": "Blanquillo", "descripcion": "Blanquillo fresco preparado con sazón casera y recetas tradicionales. Se sirve frito o sudado.", "precio": 30000, "imagen": "blanquillo.png", "imagen_2": null, "categoria_id": 1 },
+    { "id": 5, "nombre": "Capaz", "descripcion": "Capaz fresco cuidadosamente seleccionado, preparado con ingredientes típicos. Puedes elegirlo frito o sudado.", "precio": 30000, "imagen": "capaz.png", "imagen_2": null, "categoria_id": 1 },
+    { "id": 6, "nombre": "Cachama", "descripcion": "Cachama fresca al estilo colombiano, sazonada con ingredientes naturales. Disponible frito o sudado.", "precio": 30000, "imagen": "cachama.png", "imagen_2": null, "categoria_id": 1 },
+    { "id": 7, "nombre": "Dorada", "descripcion": "Dorada fresca de excelente tamaño y calidad, preparada con el toque especial de la casa. Se ofrece frito o sudado. (Por tamaño grande puede tener incremento en el precio).", "precio": 30000, "imagen": "dorada.png", "imagen_2": null, "categoria_id": 1 },
+    { "id": 8, "nombre": "Picuda", "descripcion": "Picuda fresca preparada al estilo de la casa con especias seleccionadas. Puedes disfrutarla frito o sudado.", "precio": 30000, "imagen": "picuda.png", "imagen_2": null, "categoria_id": 1 },
+    { "id": 9, "nombre": "Pechuga", "descripcion": "Pechuga de pollo fresca, jugosa y bien sazonada. Disponible frito o sudado.", "precio": 27000, "imagen": "pechuga.png", "imagen_2": null, "categoria_id": 2 },
+    { "id": 10, "nombre": "Res", "descripcion": "Carne de res seleccionada, suave y jugosa, preparada con sazón especial. Puedes elegirla frito o sudado.", "precio": 27000, "imagen": "res.png", "imagen_2": null, "categoria_id": 2 },
+    { "id": 11, "nombre": "Cerdo", "descripcion": "Carne de cerdo fresca, marinada con especias de la casa para un sabor auténtico. Se sirve frito o sudado.", "precio": 27000, "imagen": "cerdo.png", "imagen_2": null, "categoria_id": 2 },
+    { "id": 12, "nombre": "Consomé", "descripcion": "Taza de consomé, preparado con ingredientes frescos y cocción lenta para lograr un sabor casero, ideal para acompañar cualquier plato.", "precio": 10000, "imagen": "consome.png", "imagen_2": null, "categoria_id": 3 },
+    { "id": 13, "nombre": "Arepas", "descripcion": "Arepas tradicionales colombianas, elaboradas con maíz seleccionado y cocidas al punto perfecto, suaves por dentro y ligeramente doradas por fuera, ideales como acompañante.", "precio": 1000, "imagen": "arepas.png", "imagen_2": null, "categoria_id": 4 },
+    { "id": 14, "nombre": "Patacones", "descripcion": "Patacones crujientes de plátano verde, fritos al momento para lograr una textura dorada y crocante, perfectos como acompañamiento o para disfrutar solos o con hogao.", "precio": 1500, "imagen": "patacones.png", "imagen_2": null, "categoria_id": 4 },
+    { "id": 15, "nombre": "Limonada", "descripcion": "Refrescante limonada natural preparada al instante con limones frescos, ideal para acompañar tus comidas y refrescarte.", "precio": 4000, "imagen": "limonada.png", "imagen_2": null, "categoria_id": 5 }
+  ]
+}
