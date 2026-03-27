@@ -54,21 +54,27 @@ async function loadMenu() {
                     maximumFractionDigits: 0
                 }).format(product.precio);
 
+                const productImg = product.imagen ? `public/images/products/${product.imagen}` : 'public/images/product_default.png';
+
                 productsHtml += `
                     <article class="product-item" onclick='openProductModal(${JSON.stringify(product)})'>
-                        <header class="product-header">
+                        <div class="product-main-info">
                             <h3 class="product-name">${product.nombre}</h3>
+                            <p class="product-description">${product.descripcion || ''}</p>
+                        </div>
+                        <div class="product-side-info">
                             <span class="product-price">${formattedPrice}</span>
-                        </header>
-                        <p class="product-description">${product.descripcion || ''}</p>
+                            <img src="${productImg}" class="product-thumbnail" alt="${product.nombre}" loading="lazy" 
+                                 onerror="this.onerror=null;this.src='public/images/product_default.png';">
+                        </div>
                     </article>
                 `;
             });
 
             categorySection.innerHTML = `
-                <div class="category-title-bubble">
+                <h2 class="category-title-bubble">
                     ${category.nombre.toUpperCase()}
-                </div>
+                </h2>
                 <div class="product-list">
                     ${productsHtml}
                 </div>
@@ -115,13 +121,24 @@ function openProductModal(product) {
     if (product.imagen) {
         const img = document.createElement('img');
         img.src = baseUrl + product.imagen;
+        img.loading = 'lazy';
+        img.onerror = () => { img.src = 'public/images/product_default.png'; };
         imgContainer.appendChild(img);
     }
 
     if (product.imagen_2) {
         const img2 = document.createElement('img');
         img2.src = baseUrl + product.imagen_2;
+        img2.loading = 'lazy';
+        img2.onerror = () => { img2.style.display = 'none'; };
         imgContainer.appendChild(img2);
+    }
+
+    if (!product.imagen && !product.imagen_2) {
+        const img = document.createElement('img');
+        img.src = 'public/images/product_default.png';
+        img.loading = 'lazy';
+        imgContainer.appendChild(img);
     }
 
     modal.style.display = 'flex';

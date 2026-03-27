@@ -6,6 +6,17 @@
     --font-body: 'Outfit', sans-serif;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -137,21 +148,48 @@ body {
 }
 
 .product-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
     border-bottom: 1px dotted rgba(0,0,0,0.1);
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.6rem;
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: transform 0.2s, background-color 0.2s;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .product-item:hover {
     transform: scale(1.02);
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
-.product-header {
+.product-thumbnail {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.05);
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-main-info {
+    flex-grow: 1;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 0.2rem;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.product-side-info {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    min-width: 90px;
 }
 
 .product-name {
@@ -159,12 +197,14 @@ body {
     font-size: 1.25rem;
     color: #343434;
     text-transform: uppercase;
+    margin-bottom: 0.2rem; 
 }
 
 .product-price {
     font-family: var(--font-heading);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #2b2b2b;
+    line-height: 1;
 }
 
 .product-description {
@@ -265,6 +305,21 @@ body {
     .product-description {
         font-size: 0.75rem; /* Letra de descripción más pequeña */
         line-height: 1.1;
+    }
+    .product-thumbnail {
+        width: 50px;
+        height: 50px;
+    }
+    .product-item {
+        gap: 5px;
+        padding: 5px;
+    }
+    .product-side-info {
+        min-width: 65px;
+        gap: 4px;
+    }
+    .product-main-info {
+        padding-right: 5px;
     }
 }
 
