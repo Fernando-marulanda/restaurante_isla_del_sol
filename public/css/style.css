@@ -335,6 +335,39 @@ body {
     }
 }
 
+/* REGLAS PARA PANTALLAS MUY PEQUEÑAS (360px o menos) */
+@media (max-width: 360px) {
+    .menu-content-area {
+        gap: 0 10px; /* Reducción de espacio entre columnas */
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .category-title-bubble {
+        font-size: 0.95rem; /* Títulos más pequeños */
+        padding: 2px 10px;
+    }
+    .product-name {
+        font-size: 0.85rem; /* Nombres más pequeños */
+    }
+    .product-price {
+        font-size: 0.9rem; /* Precios más pequeños */
+    }
+    .product-description {
+        font-size: 0.70rem; /* Descripción mínima */
+    }
+    .product-thumbnail {
+        width: 45px; /* Foto más pequeña */
+        height: 45px;
+    }
+    .product-side-info {
+        min-width: 60px; /* Espacio para el precio y foto reducido */
+        gap: 2px;
+    }
+    .product-list {
+        gap: 0.8rem; /* Menos espacio entre productos */
+    }
+}
+
 /* PANTALLA DE CARGA (LOADER) */
 .loader-container {
     position: fixed;
