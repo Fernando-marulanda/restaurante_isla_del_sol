@@ -31,7 +31,7 @@
       "descripcion": "Tilapia fresca de excelente calidad, marinada con especias naturales. Disponible frito o sudado.",
       "precio": 30000,
       "imagen": "tilapia.jpg",
-      "imagen_2": "tilapia2.jpg",
+      "imagen_2": null,
       "categoria_id": 1
     },
     {
@@ -57,8 +57,8 @@
       "nombre": "Cachama",
       "descripcion": "Cachama fresca al estilo colombiano, sazonada con ingredientes naturales. Disponible frito o sudado.",
       "precio": 30000,
-      "imagen": "cachama.jpg",
-      "imagen_2": "cachama2.jpg",
+      "imagen": null,
+      "imagen_2": null,
       "categoria_id": 1
     },
     {
@@ -75,8 +75,8 @@
       "nombre": "Pechuga",
       "descripcion": "Pechuga de pollo fresca, jugosa y bien sazonada. Disponible frito o sudado.",
       "precio": 27000,
-      "imagen": "pechuga.jpg",
-      "imagen_2": "pechuga2.jpg",
+      "imagen": null,
+      "imagen_2": null,
       "categoria_id": 2
     },
     {
@@ -94,7 +94,7 @@
       "descripcion": "Carne de cerdo fresca, marinada con especias de la casa para un sabor auténtico. Se sirve frito o sudado.",
       "precio": 27000,
       "imagen": "cerdo.jpg",
-      "imagen_2": "cerdo2.jpg",
+      "imagen_2": null,
       "categoria_id": 2
     },
     {
@@ -103,7 +103,7 @@
       "descripcion": "Taza de consomé, preparado con ingredientes frescos y cocción lenta para lograr un sabor casero, ideal para acompañar cualquier plato.",
       "precio": 10000,
       "imagen": "consome.jpg",
-      "imagen_2": null,
+      "imagen_2": "consome2.jpg",
       "categoria_id": 3
     },
     {

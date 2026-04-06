@@ -54,7 +54,9 @@ async function loadMenu() {
                     maximumFractionDigits: 0
                 }).format(product.precio);
 
-                const productImg = product.imagen ? `public/images/products/${product.imagen}` : 'public/images/product_default.png';
+                // Intentar cargar miniatura optimizada primero
+                const productThumb = product.imagen ? `public/images/products/resized/${product.imagen}` : 'public/images/product_default.png';
+                const productFullFallback = product.imagen ? `public/images/products/${product.imagen}` : 'public/images/product_default.png';
 
                 productsHtml += `
                     <article class="product-item" onclick='openProductModal(${JSON.stringify(product)})'>
@@ -64,8 +66,11 @@ async function loadMenu() {
                         </div>
                         <div class="product-side-info">
                             <span class="product-price">${formattedPrice}</span>
-                            <img src="${productImg}" class="product-thumbnail" alt="${product.nombre}" loading="lazy" 
-                                 onerror="this.onerror=null;this.src='public/images/product_default.png';">
+                            <img src="${productThumb}" 
+                                 class="product-thumbnail" 
+                                 alt="${product.nombre}" 
+                                 loading="lazy" 
+                                 onerror="this.onerror=null; this.src='${productFullFallback}'; this.onerror=function(){this.src='public/images/product_default.png';};">
                         </div>
                     </article>
                 `;
