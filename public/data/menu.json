@@ -12,8 +12,8 @@
       "nombre": "Bagre",
       "descripcion": "Delicioso bagre fresco seleccionado, sazonado con especias de la casa y preparado al gusto. Disponible frito o sudado.",
       "precio": 30000,
-      "imagen": "bagre.jpg",
-      "imagen_2": "bagre2.png",
+      "imagen": "bagre2.jpg",
+      "imagen_2": "bagre.jpg",
       "categoria_id": 1
     },
     {
@@ -22,7 +22,7 @@
       "descripcion": "Auténtico bocachico colombiano, cuidadosamente preparado con sazón tradicional. Puedes disfrutarlo frito o sudado.",
       "precio": 30000,
       "imagen": "bocachico.jpg",
-      "imagen_2": null,
+      "imagen_2": "bocachico2.jpg",
       "categoria_id": 1
     },
     {
@@ -31,7 +31,7 @@
       "descripcion": "Tilapia fresca de excelente calidad, marinada con especias naturales. Disponible frito o sudado.",
       "precio": 30000,
       "imagen": "tilapia.jpg",
-      "imagen_2": null,
+      "imagen_2": "tilapia2.jpg",
       "categoria_id": 1
     },
     {
@@ -40,7 +40,7 @@
       "descripcion": "Blanquillo fresco preparado con sazón casera y recetas tradicionales. Se sirve frito o sudado.",
       "precio": 30000,
       "imagen": "blanquillo.jpg",
-      "imagen_2": null,
+      "imagen_2": "blanquillo2.jpg",
       "categoria_id": 1
     },
     {
@@ -48,8 +48,8 @@
       "nombre": "Capaz",
       "descripcion": "Capaz fresco cuidadosamente seleccionado, preparado con ingredientes típicos. Puedes elegirlo frito o sudado.",
       "precio": 30000,
-      "imagen": "capaz.jpg",
-      "imagen_2": null,
+      "imagen": "capaz2.jpg",
+      "imagen_2": "capaz.jpg",
       "categoria_id": 1
     },
     {
@@ -58,7 +58,7 @@
       "descripcion": "Cachama fresca al estilo colombiano, sazonada con ingredientes naturales. Disponible frito o sudado.",
       "precio": 30000,
       "imagen": "cachama.jpg",
-      "imagen_2": null,
+      "imagen_2": "cachama2.jpg",
       "categoria_id": 1
     },
     {
@@ -67,7 +67,7 @@
       "descripcion": "Dorada fresca de excelente tamaño y calidad, preparada con el toque especial de la casa. Se ofrece frito o sudado. (Por tamaño grande puede tener incremento en el precio).",
       "precio": 30000,
       "imagen": "dorada.jpg",
-      "imagen_2": null,
+      "imagen_2": "dorada2.jpg",
       "categoria_id": 1
     },
     {
@@ -76,7 +76,7 @@
       "descripcion": "Picuda fresca preparada al estilo de la casa con especias seleccionadas. Puedes disfrutarla frito o sudado.",
       "precio": 30000,
       "imagen": "picuda.jpg",
-      "imagen_2": null,
+      "imagen_2": "picuda2.jpg",
       "categoria_id": 1
     },
     {
@@ -85,7 +85,7 @@
       "descripcion": "Pechuga de pollo fresca, jugosa y bien sazonada. Disponible frito o sudado.",
       "precio": 27000,
       "imagen": "pechuga.jpg",
-      "imagen_2": null,
+      "imagen_2": "pechuga2.jpg",
       "categoria_id": 2
     },
     {
@@ -94,7 +94,7 @@
       "descripcion": "Carne de res seleccionada, suave y jugosa, preparada con sazón especial. Puedes elegirla frito o sudado.",
       "precio": 27000,
       "imagen": "res.jpg",
-      "imagen_2": null,
+      "imagen_2": "res2.jpg",
       "categoria_id": 2
     },
     {
@@ -103,7 +103,7 @@
       "descripcion": "Carne de cerdo fresca, marinada con especias de la casa para un sabor auténtico. Se sirve frito o sudado.",
       "precio": 27000,
       "imagen": "cerdo.jpg",
-      "imagen_2": null,
+      "imagen_2": "cerdo2.jpg",
       "categoria_id": 2
     },
     {
