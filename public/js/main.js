@@ -1,7 +1,7 @@
+// Iniciar carga del menú
+loadMenu();
+
 window.addEventListener('DOMContentLoaded', () => {
-    // Iniciar carga del menú tan pronto como el DOM esté listo
-    loadMenu();
-    
     // Manejo seguro del loader
     const loader = document.getElementById('loader');
     if (loader) {
@@ -69,7 +69,7 @@ async function loadMenu() {
                             <img src="${productThumb}" 
                                  class="product-thumbnail" 
                                  alt="${product.nombre}" 
-                                 loading="lazy" 
+                                 loading="eager" 
                                  onerror="this.onerror=null; this.src='${productFullFallback}'; this.onerror=function(){this.src='public/images/product_default.png';};">
                         </div>
                     </article>
