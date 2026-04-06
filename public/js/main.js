@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     if (loader) {
         setTimeout(() => {
             loader.classList.add('loader-hidden');
-        }, 1200);
+        }, 5000);
     }
 });
 
@@ -27,7 +27,7 @@ async function loadMenu() {
         const categories = data.categories;
         const products = data.products;
 
-        // Mapeo por IDs para el CSS Grid (Idem al que teníamos en PHP)
+        // Mapeo por IDs para el CSS Grid 
         const gridMap = {
             1: 'pescados',   // Lado izquierdo toda la altura
             2: 'carnes',     // Fila 1 derecha

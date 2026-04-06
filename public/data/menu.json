@@ -72,15 +72,6 @@
     },
     {
       "id": 8,
-      "nombre": "Picuda",
-      "descripcion": "Picuda fresca preparada al estilo de la casa con especias seleccionadas. Puedes disfrutarla frito o sudado.",
-      "precio": 30000,
-      "imagen": "picuda.jpg",
-      "imagen_2": "picuda2.jpg",
-      "categoria_id": 1
-    },
-    {
-      "id": 9,
       "nombre": "Pechuga",
       "descripcion": "Pechuga de pollo fresca, jugosa y bien sazonada. Disponible frito o sudado.",
       "precio": 27000,
@@ -89,7 +80,7 @@
       "categoria_id": 2
     },
     {
-      "id": 10,
+      "id": 9,
       "nombre": "Res",
       "descripcion": "Carne de res seleccionada, suave y jugosa, preparada con sazón especial. Puedes elegirla frito o sudado.",
       "precio": 27000,
@@ -98,7 +89,7 @@
       "categoria_id": 2
     },
     {
-      "id": 11,
+      "id": 10,
       "nombre": "Cerdo",
       "descripcion": "Carne de cerdo fresca, marinada con especias de la casa para un sabor auténtico. Se sirve frito o sudado.",
       "precio": 27000,
@@ -107,7 +98,7 @@
       "categoria_id": 2
     },
     {
-      "id": 12,
+      "id": 11,
       "nombre": "Consomé",
       "descripcion": "Taza de consomé, preparado con ingredientes frescos y cocción lenta para lograr un sabor casero, ideal para acompañar cualquier plato.",
       "precio": 10000,
@@ -116,7 +107,7 @@
       "categoria_id": 3
     },
     {
-      "id": 13,
+      "id": 12,
       "nombre": "Arepas",
       "descripcion": "Arepas tradicionales colombianas, elaboradas con maíz seleccionado y cocidas al punto perfecto, suaves por dentro y ligeramente doradas por fuera, ideales como acompañante.",
       "precio": 1000,
@@ -125,7 +116,7 @@
       "categoria_id": 4
     },
     {
-      "id": 14,
+      "id": 13,
       "nombre": "Patacones",
       "descripcion": "Patacones crujientes de plátano verde, fritos al momento para lograr una textura dorada y crocante, perfectos como acompañamiento o para disfrutar solos o con hogao.",
       "precio": 1500,
@@ -134,7 +125,7 @@
       "categoria_id": 4
     },
     {
-      "id": 15,
+      "id": 14,
       "nombre": "Limonada",
       "descripcion": "Refrescante limonada natural preparada al instante con limones frescos, ideal para acompañar tus comidas y refrescarte.",
       "precio": 4000,
