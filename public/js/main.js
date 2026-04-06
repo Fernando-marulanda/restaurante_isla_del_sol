@@ -70,6 +70,7 @@ async function loadMenu() {
                                  class="product-thumbnail" 
                                  alt="${product.nombre}" 
                                  loading="eager" 
+                                 onload="prefetchHighRes('${productFullFallback}')"
                                  onerror="this.onerror=null; this.src='${productFullFallback}'; this.onerror=function(){this.src='public/images/product_default.png';};">
                         </div>
                     </article>
@@ -157,4 +158,11 @@ window.onclick = function(event) {
     if (event.target == modal) {
         closeProductModal();
     }
+}
+
+// Función auxiliar para pre-cargar imágenes de alta resolución en segundo plano
+function prefetchHighRes(url) {
+    if (!url || url.includes('product_default.png')) return;
+    const img = new Image();
+    img.src = url;
 }
