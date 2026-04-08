@@ -220,6 +220,23 @@ body {
     text-overflow: ellipsis;
 }
 
+/* Nota importante / Aviso */
+.product-note-item {
+    padding: 10px;
+    background: rgba(0, 188, 212, 0.1);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.product-note-text {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 600;
+    font-style: italic;
+}
+
 /* MODAL STYLES */
 .modal {
     display: none;

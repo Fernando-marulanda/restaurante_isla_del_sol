@@ -48,6 +48,15 @@ async function loadMenu() {
             
             let productsHtml = '';
             categoryProducts.forEach(product => {
+                if (product.isNote) {
+                    productsHtml += `
+                        <div class="product-note-item">
+                            <p class="product-note-text">${product.descripcion}</p>
+                        </div>
+                    `;
+                    return;
+                }
+
                 const formattedPrice = new Intl.NumberFormat('es-CO', {
                     style: 'currency',
                     currency: 'COP',

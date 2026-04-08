@@ -57,17 +57,23 @@
       "nombre": "Cachama",
       "descripcion": "Cachama fresca al estilo colombiano, sazonada con ingredientes naturales. Disponible frito o sudado.",
       "precio": 30000,
-      "imagen": null,
+      "imagen": "cachama.jpg",
       "imagen_2": null,
       "categoria_id": 1
     },
     {
       "id": 7,
       "nombre": "Dorada",
-      "descripcion": "Dorada fresca de excelente tamaño y calidad, preparada con el toque especial de la casa. Se ofrece frito o sudado. (Por tamaño grande puede tener incremento en el precio).",
+      "descripcion": "Dorada fresca de excelente tamaño y calidad, preparada con el toque especial de la casa. Se ofrece frito o sudado.",
       "precio": 30000,
       "imagen": "dorada.jpg",
       "imagen_2": "dorada2.jpg",
+      "categoria_id": 1
+    },
+    {
+      "id": 15,
+      "isNote": true,
+      "descripcion": "Nota: Algunas de las porciones de pescado varían de precio según el tamaño del pescado. Por favor, consulte con nuestro personal.",
       "categoria_id": 1
     },
     {
@@ -119,7 +125,7 @@
       "id": 13,
       "nombre": "Patacones",
       "descripcion": "Patacones crujientes de plátano verde, fritos al momento para lograr una textura dorada y crocante, perfectos como acompañamiento o para disfrutar solos o con hogao.",
-      "precio": 1500,
+      "precio": 2000,
       "imagen": "patacones.jpg",
       "imagen_2": null,
       "categoria_id": 4
