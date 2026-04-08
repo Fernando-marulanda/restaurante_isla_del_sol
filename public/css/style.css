@@ -441,7 +441,7 @@ body {
     border-radius: 50%;
     animation: spin 1s linear infinite;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    margin-top: 40px; /* Posicionamos el spinner abajo para no tapar el centro en móvil */
+    margin-top: 100px; /* Posicionamos el spinner abajo para no tapar el centro en móvil */
 }
 
 @keyframes spin {

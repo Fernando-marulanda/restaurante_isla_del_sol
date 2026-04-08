@@ -81,7 +81,7 @@
       "nombre": "Pechuga",
       "descripcion": "Pechuga de pollo fresca, jugosa y bien sazonada. Disponible frito o sudado.",
       "precio": 27000,
-      "imagen": null,
+      "imagen": "pechuga.jpg",
       "imagen_2": null,
       "categoria_id": 2
     },
