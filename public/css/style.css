@@ -249,7 +249,8 @@ body {
     background-color: rgba(0,0,0,0.8);
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 60px 20px 20px;
+    overflow-y: auto;
 }
 
 .modal-content {
@@ -258,6 +259,8 @@ body {
     border-radius: 20px;
     width: 100%;
     max-width: 500px;
+    box-sizing: border-box;
+    margin: auto 0;
     position: relative;
     text-align: center;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5);
