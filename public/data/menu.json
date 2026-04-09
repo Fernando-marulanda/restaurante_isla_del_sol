@@ -138,6 +138,24 @@
       "imagen": "limonada.jpg",
       "imagen_2": null,
       "categoria_id": 5
+    },
+    {
+      "id": 16,
+      "nombre": "Michelada de Gaseosa",
+      "descripcion": "Refrescante michelada preparada al instante con gaseosa, ideal para acompañar tus comidas y refrescarte.",
+      "precio": 7000,
+      "imagen": "michelada_gaseosa.jpg",
+      "imagen_2": null,
+      "categoria_id": 5
+    },
+    {
+      "id": 17,
+      "nombre": "Michelada de Cerveza",
+      "descripcion": "Refrescante michelada preparada al instante con cerveza, ideal para acompañar tus comidas y refrescarte.",
+      "precio": 8000,
+      "imagen": "michelada_cerveza.jpg",
+      "imagen_2": null,
+      "categoria_id": 5
     }
   ]
 }
