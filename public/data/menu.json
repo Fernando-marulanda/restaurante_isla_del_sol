@@ -31,7 +31,7 @@
       "descripcion": "Tilapia fresca de excelente calidad, marinada con especias naturales. Disponible frito o sudado.",
       "precio": 30000,
       "imagen": "tilapia.jpg",
-      "imagen_2": null,
+      "imagen_2": "tilapia2.jpg",
       "categoria_id": 1
     },
     {
